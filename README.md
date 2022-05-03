@@ -7,9 +7,10 @@
 ## HLS
 This has all the unoptimized and optimised HLS directories for each individual layer along with the final AlexNet integration of all layers.
 * Go to the directory you want to run
-* Add required txt files
+* Check the required txt files in testbench_<layer>.cpp
+* Add required txt files 
 * Just make and ./csim.out
-* For vitis synthesis, just type lastyear vitis_hls -f layer_synth.tch
+* For vitis synthesis, just type _lastyear vitis_hls -f layer_synth.tcl_
 
 ## Python
 * All data file (output, weights and bias) for each layer can be found in the **data_txt** directory.
