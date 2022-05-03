@@ -30,5 +30,7 @@ This has all the unoptimized and optimised HLS directories for each individual l
 * Add required txt files 
 * Just make and ./csim.out
 * For vitis synthesis, just type _lastyear vitis_hls -f layer_synth.tcl_
-
+  
+ **Note: We wish not to open source this repository.
+**
 
