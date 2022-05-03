@@ -5,7 +5,11 @@
 3. Python
 
 ## HLS
-* This has all the unoptimized and optimised HLS directory for each individual layer along with the final AlexNet integration of all layers.
+This has all the unoptimized and optimised HLS directories for each individual layer along with the final AlexNet integration of all layers.
+* Go to the directory you want to run
+* Add required txt files
+* Just make and ./csim.out
+* For vitis synthesis, just type lastyear vitis_hls -f layer_synth.tch
 
 ## Python
 * All data file (output, weights and bias) for each layer can be found in the **data_txt** directory.
