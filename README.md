@@ -18,7 +18,7 @@
 * <layer>.cpp - C++ implementation of all individual layers in ALexNet
 * top_testbench.cpp - wrapper testbench to call the layers serially as per the AlexNet architecture
 * Makefile
-###How to run
+### How to run
   1. Copy the input_conv1.txt, all weigths_\<layer\>.txt and all bias_\<layer\>.txt.
   2. Just type make and type ./csim.out. The C simulation will print expected and predicted class.
   
