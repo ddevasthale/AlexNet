@@ -7,7 +7,7 @@
 ## HLS
 This has all the unoptimized and optimised HLS directories for each individual layer along with the final AlexNet integration of all layers.
 * Go to the directory you want to run
-* Check the required txt files in testbench_<layer>.cpp
+* Check the required txt files in testbench_\<layer\>.cpp
 * Add required txt files 
 * Just make and ./csim.out
 * For vitis synthesis, just type _lastyear vitis_hls -f layer_synth.tcl_
@@ -29,7 +29,7 @@ This has all the unoptimized and optimised HLS directories for each individual l
 
 ### How to run
 
-1. Copy the input_conv1.txt, all weigths_<layer>.txt and all bias_<layer>.txt.
+1. Copy the input_conv1.txt, all weigths_\<layer\>.txt and all bias_\<layer\>.txt.
 2. Just type make and type ./csim.out. The C simulation will print expected and predicted class.
 
 
